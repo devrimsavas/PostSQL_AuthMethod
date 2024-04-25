@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.list-group-item:hover {
+  background-color: #484b4c; /* Dark grey background on hover */
+  cursor: pointer; /* Changes the mouse cursor to a pointer to indicate it's clickable */
+}
+
+.navbar  {
+  background-color: #919fa4 !important;
+  border-radius:5px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link, .navbar .navbar-nav .nav-item {
+  font-size: 1.2em;
+  padding: 12px 15px;  /* Standard padding; adjust as necessary */
+  line-height: 0.3;   /* Standard line height for better vertical alignment */
+  display: flex;      /* Flexbox for vertical centering */
+  align-items: center; /* Align text vertically in the center */
+}
+
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #3ee90e; /* Light grey color for hover */
+}
+
+
